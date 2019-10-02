@@ -21,7 +21,7 @@ public class EnrichmentQueryResult {
     private int _nodes;
     private int _edges;
     private double _pValue;
-    //private double _similarity;
+    private double _similarity;
     private int _rank;
     private Set<String> _hitGenes;
 
@@ -113,7 +113,7 @@ public class EnrichmentQueryResult {
     public void setHitGenes(Set<String> _hitGenes) {
         this._hitGenes = _hitGenes;
     }
-    /*
+    
 	public void setSimilarity(double _similarity) {
 		this._similarity = _similarity;
 	}
@@ -121,5 +121,5 @@ public class EnrichmentQueryResult {
 	public double getSimilarity() {
 		return _similarity;
     }
-    */
+    
 }
